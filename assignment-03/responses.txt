@@ -1,1 +1,3 @@
-this is a test
+it is much easier to edit with a text editor. the process is much shorter. text editors also teach you to use html.
+
+absolute urls are more precise but have a lot more characters. relative urls are much shorter and more convienient to use but you can only link from certain close files.

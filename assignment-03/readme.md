@@ -11,3 +11,7 @@ testing out word wrap word wrap word wrap word wrap word wrap im listening to si
 [my file](./responses.txt)
 
 ![screenshot](./images/assignment-03-photo.jpg)
+
+![text editor](./images/screenshot-txt-editor.jpg)
+
+[responses](./responses.txt)
