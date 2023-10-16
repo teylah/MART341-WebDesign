@@ -2,11 +2,11 @@
 <html>
 
 <head>
-    <title>Song Finder</title>
+    <title>Music Finder</title>
     <!--define characterset-->
     <meta charset="UTF-8">
     <!--define page description-->
-    <meta name="description" content="this is a page for Song Finder">
+    <meta name="description" content="this is a page for Music Finder">
     <!--define author info-->
     <meta name="author" content="Teylah Lawson">
     <!--more meta-->
@@ -21,17 +21,76 @@
         }
 
         table {
-            border: 1px rgb(49, 13, 13);
+            border: 1px solid black;
         }
     </style>
 </head>
 
 <body>
-    <img src="images/logo.png" title="logo" width="200" height="200">
-    
+    <img src="images/logo-png.png" width="200" height="200" alt="Music Finder Logo" title="Music Finder Logo">
     <h1>WELCOME</h1>
-    <p>This is the place to be if you need new music.</p>
+    <p>This is the place to be if you need to find music.</p>
 
+  <h3>Examples of shows and artists we find.</h3>
+    <p>
+        <table>
+            <tr>
+                <th>Artists</th>
+                <th>Shows</th>
+            </tr>
+            <tr>
+                <td>Hozier</td>
+                <td>Austin City Limits</td>
+            </tr>
+            <tr>
+                <td>Lana Del Ray</td>
+                <td>Lollapalooza</td>
+            </tr>
+            <tr>
+                <td>Oliver Tree</td>
+                <td>Rolling Loud</td>
+            </tr>
+            <tr>
+                <td>Skrillex</td>
+                <td>Coachella</td>
+            </tr>
+        </table>
+    </p>
+
+ 
+    <p></p>
+    <form method="post" action="index.html">
+        Name:<br />
+        <input type="text" id="name" placeholder="enter your name" autofocus>
+        <h4>Music I like:</h4>
+        <input type="checkbox" name="music-i-like" type="music-i-like" value="indie">indie<br />
+        <input type="checkbox" name="music-i-like" type="music-i-like" value="house">house<br />
+        <input type="checkbox" name="music-i-like" type="music-i-like" value="rock">rock<br />
+        <input type="checkbox" name="music-i-like" type="music-i-like" value="acoustic">acoustic<br />
+        <input type="checkbox" name="music-i-like" type="music-i-like" value="pop">pop<br />
+        <input type="checkbox" name="music-i-like" type="music-i-like" value="alternative">alternative<br />
+        <input type="checkbox" name="music-i-like" type="music-i-like" value="other">other<br />
+        <pr></pr>
+        <textarea name="other" id="other" rows="10" col="10">any additional comments or requests</textarea>
+        <p></p>
+        Subcribe to emails for early access?
+        <p></p>
+        Yes&nbsp;<input type="radio" name="newsletter" type="newsletter" value="yes">
+        No&nbsp;<input type="radio" name="newsletter" type="newsletter" value="no">
+        <br/>
+        <p></p>
+        <input type="submit" name="submit" value="submit" />
+    </form>
+    <p></p>
+ <h2>CONTACT</h2>
+    <a href="teylah@gmail.com">email us</a>
+    <address>
+        Music Finder <br />
+        233 Broadway St <br />
+        Missoula, MT 59802 <br />
+        <a href="tel:406-123-5764" target="_blank" rel="noopener">406-123-5764</a> <br />
+    </address>
+    <p></p>
+    <img src="images/lolla.jpg" width="600" height="350" alt="Festival" title="Festival">
 </body>
-
 </html>
