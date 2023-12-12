@@ -8,6 +8,10 @@ header {
   text-align: center;
   align-items: center;
 }
+.p {
+  font-family: monospace;
+  font-size: medium;
+}
 h1 {
   font-family: monospace;
   text-align: left;
@@ -633,7 +637,6 @@ button,
 [type=button],
 [type=reset],
 [type=submit] {
-  -webkit-appearance: button;
 }
 button:not(:disabled),
 [type=button]:not(:disabled),
@@ -690,7 +693,6 @@ legend + * {
 }
 
 [type=search] {
-  -webkit-appearance: textfield;
   outline-offset: -2px;
 }
 
@@ -717,7 +719,6 @@ legend + * {
 
 ::file-selector-button {
   font: inherit;
-  -webkit-appearance: button;
 }
 
 output {
@@ -1012,6 +1013,8 @@ progress {
   width: 33%;
   margin-left: 58%;
   margin-top: -27%;
+  font-family: monospace;
+  font-size: medium;
 }
 
 .col-5 {
@@ -1021,29 +1024,36 @@ progress {
 
 .col-6 {
   flex: 0 0 auto;
-  width: 50%;
+  width: 480px;
+  margin-left: 10%;
 }
+
 
 .col-7 {
   flex: 0 0 auto;
-  width: 58.33333333%;
+  width: 100%;
+  margin-left: -10px;
 }
 
 .col-8 {
   flex: 0 0 auto;
   width: 66.66666667%;
+  margin-left: 10%;
+  margin-top: 5%;
 }
 
 .col-9 {
   flex: 0 0 auto;
   width: 75%;
   margin-left: 17%;
-  margin-top: -5%;
+  margin-top: 0%;
 }
 
 .col-10 {
   flex: 0 0 auto;
   width: 83.33333333%;
+  margin-top: 5%;
+  margin-left: 10%;
 }
 
 .col-11 {
@@ -2557,7 +2567,6 @@ textarea.form-control-lg {
   background-size: contain;
   border: var(--bs-border-width) solid var(--bs-border-color);
   -webkit-print-color-adjust: exact;
-  color-adjust: exact;
   print-color-adjust: exact;
 }
 .form-check-input[type=checkbox] {
@@ -8229,6 +8238,8 @@ textarea.form-control-lg {
 
 .mb-3 {
   margin-bottom: 1rem !important;
+  margin-left: 30px;
+  margin
 }
 
 .mb-4 {
